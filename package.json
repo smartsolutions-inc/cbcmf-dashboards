@@ -1,0 +1,38 @@
+{
+  "name": "cbcmf-dashboards",
+  "version": "1.0.0",
+  "description": "dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartsolutions-inc/cbcmf-dashboards.git"
+  },
+  "keywords": [
+    "dashboard",
+    "dwapp",
+    "pwa",
+    "web3",
+    "blockchain"
+  ],
+  "author": "Jersson A. Rodriguez P.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartsolutions-inc/cbcmf-dashboards/issues"
+  },
+  "homepage": "https://github.com/smartsolutions-inc/cbcmf-dashboards#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4"
+  }
+}
