@@ -2,13 +2,13 @@
 Coop Blockchain Mining Farms Dashboards
 
 
-** Dependencies needed in node js **
+**Dependencies needed in node js**
 
 ```bash
 npm install --save express fs http socket.io web3 path cheerio
 ```
 
-** Dev dependencies **
+**Dev dependencies**
 
 ```bash
 npm install --save-dev -g webpack nodemon
