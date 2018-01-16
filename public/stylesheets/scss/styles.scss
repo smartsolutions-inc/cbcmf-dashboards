@@ -23,6 +23,8 @@ html, body, #dashboard--app  {
     content: url('/static/menu.svg');
     display: inline-block;
     width: 24px;
+    padding-top: 8px;
+    box-sizing: border-box;
 }
 
 #_-hdr--app {
@@ -42,7 +44,7 @@ html, body, #dashboard--app  {
 .user-action--notification {
     height: auto;
     display: flex;
-    
+
     .notification-btn::before {
         content: url('/static/notification.svg');
         display: inline-block;

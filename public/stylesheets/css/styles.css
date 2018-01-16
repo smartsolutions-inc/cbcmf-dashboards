@@ -14,7 +14,9 @@
 .menu-btn::before {
   content: url(/static/menu.svg);
   display: inline-block;
-  width: 24px; }
+  width: 24px;
+  padding-top: 8px;
+  box-sizing: border-box; }
 
 #_-hdr--app {
   width: 100%;
